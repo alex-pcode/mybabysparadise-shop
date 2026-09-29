@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Džakovi za igračke, ručno oslikani po želji · My Baby's Paradise</title>
+<meta name="description" content="Ručno oslikani džakovi za igračke od natron papira, u tri veličine (42,5, 61,5 i 79,5 cm), sa motivom i imenom po vašoj želji. Od 300 din, ceo komplet 1.200 din.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Mulish:wght@400;500;700;800&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f8f7f3; --paper-2:#f1eee7; --white:#fffdfa;
+  --blush:#f0cac5; --blush-soft:#f8e4e0; --heart:#e9a7a1; --rose:#b8625b;
+  --sage:#748067; --sage-deep:#5f6b54; --sage-soft:#e4e8dc;
+  --kraft:#c49a6c; --kraft-soft:#efe2d0;
+  --ink:#3b322f; --brown:#594a46; --muted:#7c706b; --line:#e6e0d6;
+  --radius:22px; --shadow:0 18px 40px -22px rgba(59,50,47,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Mulish",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;font-variant-numeric:lining-nums}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,textarea{font:inherit;color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:500;line-height:1.08;letter-spacing:-.015em}
+.hand{font-family:"Caveat",cursive;font-weight:700;color:var(--rose);letter-spacing:0}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--sage-deep)}
+.eyebrow::before{content:"";width:22px;height:1.5px;background:var(--sage)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;padding:15px 28px;border-radius:999px;font-weight:800;font-size:15px;border:1.5px solid var(--ink);transition:transform .15s,background .15s,color .15s;cursor:pointer;white-space:nowrap}
+.btn-dark{background:var(--sage-deep);border-color:var(--sage-deep);color:#fff}
+.btn-dark:hover{background:var(--brown);border-color:var(--brown);transform:translateY(-2px)}
+.btn-ghost{background:transparent}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+
+header.site{position:sticky;top:0;z-index:50;background:rgba(248,247,243,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;font-family:"Playfair Display",serif;font-weight:700;font-size:22px;letter-spacing:.08em;text-transform:uppercase;line-height:1}
+.logo img{width:50px;height:50px;border-radius:50%;object-fit:cover;object-position:50% 38%;border:1.5px solid var(--line);background:#fff}
+.logo small{display:block;font-family:"Mulish";font-size:10px;letter-spacing:.3em;color:var(--muted);font-weight:800;margin-bottom:3px}
+nav.main{display:flex;gap:28px;font-weight:700;font-size:15px}
+nav.main a{position:relative;padding:4px 0}
+nav.main a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:0;background:var(--heart);transition:width .2s}
+nav.main a:hover::after,nav.main a.on::after{width:100%}
+.icons{display:flex;gap:10px;align-items:center}
+.icon-btn{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--line);background:var(--white);position:relative;cursor:pointer}
+.icon-btn svg{width:19px;height:19px;stroke:var(--ink);fill:none;stroke-width:1.8}
+.badge{position:absolute;top:-4px;right:-4px;background:var(--rose);color:#fff;font-size:11px;font-weight:800;min-width:19px;height:19px;border-radius:10px;display:grid;place-items:center;transition:transform .2s}
+.badge.bump{transform:scale(1.35)}
+.menu-btn{display:none}
+.mobile-nav{display:none}
+
+.crumbs{display:flex;gap:10px;font-size:13px;color:var(--muted);font-weight:700;padding:22px 0}
+.crumbs a:hover{color:var(--rose)}
+
+.product{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:start;padding-bottom:80px}
+.left{position:sticky;top:96px;display:grid;gap:16px}
+.gallery{display:grid;grid-template-columns:74px 1fr;gap:14px}
+.thumbs{display:flex;flex-direction:column;gap:10px}
+.thumbs button{border:2px solid transparent;border-radius:14px;overflow:hidden;padding:0;cursor:pointer;aspect-ratio:1;background:#fff}
+.thumbs button.on{border-color:var(--sage-deep)}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+.stage{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:1;background:#fff;box-shadow:var(--shadow)}
+.stage img{width:100%;height:100%;object-fit:cover;transition:opacity .16s}
+.tag{position:absolute;top:16px;left:16px;background:var(--white);color:var(--sage-deep);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 11px;border-radius:999px;z-index:2}
+
+.preview{background:var(--kraft-soft);border-radius:var(--radius);padding:16px 16px 10px;position:relative}
+.preview .lbl{display:flex;justify-content:space-between;gap:10px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--brown)}
+.preview .lbl span:last-child{letter-spacing:0;text-transform:none;font-weight:700;color:var(--muted)}
+.preview svg{width:100%;height:auto;display:block;margin-top:6px}
+
+.info h1{font-size:clamp(44px,5vw,68px);margin:12px 0 10px}
+.info h1 .hand{font-size:.62em;display:block;margin-top:2px}
+.pricebox{display:flex;align-items:baseline;gap:12px;margin:18px 0 4px;flex-wrap:wrap}
+.pricebox .now{font-family:"Playfair Display",serif;font-weight:700;font-size:42px;line-height:1}
+.pricebox .was{color:var(--muted);text-decoration:line-through;font-weight:700}
+.pricebox .note{font-size:13px;color:var(--sage-deep);font-weight:800;background:var(--sage-soft);padding:4px 10px;border-radius:999px}
+.intro{color:var(--muted);font-size:16.5px;margin:14px 0 6px;max-width:52ch}
+
+.opt{margin-top:28px}
+.opt-head{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:15px;margin-bottom:12px;gap:12px;flex-wrap:wrap}
+.opt-head small{font-weight:700;color:var(--muted);font-size:13px}
+.sizes{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.size{border:1.5px solid var(--line);border-radius:18px;background:var(--white);padding:14px 8px 12px;cursor:pointer;text-align:center;transition:border-color .15s,background .15s;position:relative}
+.size .ic{height:40px;display:flex;align-items:flex-end;justify-content:center;gap:3px;margin-bottom:8px}
+.size .ic i{display:block;width:14px;background:#fff;border:1.5px solid var(--brown);border-top:5px solid var(--kraft);border-radius:2px}
+.size b{display:block;font-size:14.5px}
+.size small{display:block;color:var(--muted);font-size:12px;font-weight:700}
+.size .p{display:block;font-family:"Playfair Display",serif;font-weight:700;font-size:21px;margin-top:4px}
+.size.on{border-color:var(--sage-deep);background:var(--sage-soft);box-shadow:inset 0 0 0 1px var(--sage-deep)}
+.size .save{position:absolute;top:-9px;left:50%;transform:translateX(-50%);background:var(--rose);color:#fff;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:999px;white-space:nowrap}
+
+.bagrow{border:1.5px solid var(--line);border-radius:18px;background:var(--white);padding:12px 14px;margin-bottom:10px}
+.bagrow .t{font-size:13px;font-weight:800;color:var(--brown);margin-bottom:8px}
+.motifs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.motif{border:1.5px solid var(--line);border-radius:14px;background:var(--paper);padding:8px 4px 6px;cursor:pointer;text-align:center;font-size:12px;font-weight:800;line-height:1.2}
+.motif svg{width:34px;height:34px;display:block;margin:0 auto 4px}
+.motif svg *{fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.motif svg .f{fill:var(--ink);stroke:none}
+.motif.on{border-color:var(--rose);background:var(--blush-soft);box-shadow:inset 0 0 0 1px var(--rose)}
+
+.namebox{display:grid;grid-template-columns:1fr auto;gap:10px}
+input[type=text],textarea{width:100%;border:1.5px solid var(--line);border-radius:16px;background:var(--white);padding:13px 16px;outline:0;font-size:15px}
+input[type=text]:focus,textarea:focus{border-color:var(--sage)}
+textarea{min-height:84px;resize:vertical}
+.seg{display:flex;border:1.5px solid var(--line);border-radius:999px;background:var(--white);padding:3px}
+.seg button{border:0;background:transparent;border-radius:999px;padding:8px 12px;font-size:13px;font-weight:800;cursor:pointer;color:var(--muted)}
+.seg button.on{background:var(--sage-deep);color:#fff}
+.chk{display:flex;gap:10px;align-items:center;font-size:14px;font-weight:700;margin-top:10px;cursor:pointer}
+.chk input{width:18px;height:18px;accent-color:var(--sage-deep)}
+.hint{font-size:13px;color:var(--muted);margin-top:8px}
+
+.buy{margin-top:28px}
+.buy .btn{width:100%}
+.dm{width:100%;margin-top:10px}
+.dm-note{font-size:13px;color:var(--muted);text-align:center;margin-top:8px}
+
+.perks{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:26px}
+.perk{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:14px 8px;text-align:center;font-size:13px;font-weight:800}
+.perk span{display:block;font-size:22px;margin-bottom:4px}
+
+.acc{margin-top:28px;border-top:1px solid var(--line)}
+.acc details{border-bottom:1px solid var(--line);padding:18px 0;overflow:hidden}
+.acc summary{cursor:pointer;list-style:none;font-family:"Playfair Display",serif;font-weight:600;font-size:23px;display:flex;justify-content:space-between;gap:16px}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"+";font-family:"Mulish";font-weight:500;font-size:24px;color:var(--sage-deep);transition:transform .2s;flex:0 0 auto}
+.acc details[open] summary::after{transform:rotate(45deg)}
+.acc .inner{color:var(--muted);margin-top:10px;font-size:15px}
+.acc ul{padding-left:18px;display:grid;gap:6px}
+
+section.block{padding:90px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:40px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(36px,4.4vw,58px);margin-top:12px}
+.sec-head p{max-width:46ch;color:var(--muted)}
+
+.dims{background:var(--kraft-soft);border-radius:44px;margin:0 16px;overflow:hidden}
+.dims .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:center;padding-top:80px;padding-bottom:80px}
+.dims .pic img{border-radius:24px;box-shadow:var(--shadow);border:8px solid var(--white);width:100%;max-width:420px}
+.dimtable{display:grid;gap:10px;margin-top:26px}
+.dimtable div{display:grid;grid-template-columns:1fr auto auto;gap:18px;align-items:center;background:var(--white);border-radius:16px;padding:14px 18px;font-weight:700}
+.dimtable div small{color:var(--muted);font-weight:700}
+.dimtable div b{font-family:"Playfair Display",serif;font-size:22px}
+.dimtable div.set{background:var(--sage-deep);color:#fff}
+.dimtable div.set small{color:#dfe4d6}
+
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.strip figure{border-radius:20px;overflow:hidden;background:var(--white);border:1px solid var(--line)}
+.strip img{width:100%;aspect-ratio:1;object-fit:cover}
+.strip figcaption{padding:12px 14px;font-size:14px;color:var(--muted)}
+.strip figcaption b{display:block;font-family:"Caveat";font-size:23px;color:var(--brown);line-height:1}
+
+.related{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--white);border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.card .media{aspect-ratio:4/3;overflow:hidden}
+.card .media img{width:100%;height:100%;object-fit:cover}
+.card .body{padding:16px 18px 20px}
+.card h3{font-size:25px;margin-bottom:4px}
+.price{font-weight:800;font-size:15px}
+.price small{font-weight:700;color:var(--muted);font-size:12px}
+
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,calc(100% + 40px));visibility:hidden;background:var(--brown);color:#fff;padding:14px 22px;border-radius:999px;font-size:14px;font-weight:700;z-index:90;transition:transform .3s;box-shadow:var(--shadow);max-width:calc(100% - 32px);text-align:center}
+.toast.show{transform:translate(-50%,0);visibility:visible}
+.sticky-buy{position:fixed;left:0;right:0;bottom:0;background:var(--white);border-top:1px solid var(--line);padding:12px 16px;display:none;align-items:center;gap:12px;z-index:80;box-shadow:0 -10px 24px -18px rgba(0,0,0,.4)}
+.sticky-buy .t{flex:1;min-width:0}
+.sticky-buy .t small{display:block;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sticky-buy .t b{font-size:17px}
+.sticky-buy .btn{padding:12px 20px}
+
+footer{background:var(--brown);color:#e8dfdb;padding:64px 0 28px;margin-top:40px}
+footer .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;margin-bottom:40px}
+footer h4{color:#fff;font-family:"Playfair Display",serif;font-size:22px;margin-bottom:12px;font-weight:600}
+footer li{list-style:none;margin:8px 0;font-size:14px}
+footer li a:hover{color:var(--blush)}
+footer .logo{color:#fff}
+footer .legal{border-top:1px solid rgba(255,255,255,.14);padding-top:22px;display:flex;justify-content:space-between;font-size:13px;opacity:.7;flex-wrap:wrap;gap:12px}
+
+@media (max-width:1024px){
+  .strip{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:860px){
+  nav.main{display:none}
+  .menu-btn{display:grid}
+  header.site.menu-open .mobile-nav{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;padding:8px 24px 18px;border-bottom:1px solid var(--line);box-shadow:0 14px 24px -18px rgba(0,0,0,.35)}
+  .mobile-nav a{padding:13px 0;font-size:17px;border-bottom:1px solid var(--line)}
+  .mobile-nav a:last-child{border-bottom:0}
+  .product{grid-template-columns:1fr;gap:30px}
+  .left{position:static}
+  .gallery{grid-template-columns:1fr}
+  .thumbs{flex-direction:row;order:2;overflow-x:auto}
+  .thumbs button{flex:0 0 64px}
+  .dims .wrap{grid-template-columns:1fr;gap:34px;padding-top:56px;padding-bottom:56px}
+  .related{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr}
+  .sticky-buy.show{display:flex}
+}
+@media (max-width:560px){
+  .wrap{padding:0 16px}
+  .logo{font-size:17px;gap:9px}
+  .logo img{width:42px;height:42px}
+  .logo small{display:none}
+  .sizes{grid-template-columns:1fr 1fr}
+  .motifs{grid-template-columns:repeat(4,1fr);gap:6px}
+  .motif{font-size:11px}
+  .namebox{grid-template-columns:1fr}
+  .seg{justify-self:start}
+  .perk{font-size:12px;padding:12px 6px}
+  section.block{padding:64px 0}
+  .dims{margin:0 8px;border-radius:30px}
+  .dimtable div{gap:10px;padding:12px 14px}
+  .strip{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="img/logo.jpg" alt="My Baby's Paradise logo"><span><small>My</small>Baby's Paradise</span></a>
+    <nav class="main" aria-label="Glavna navigacija">
+      <a href="index.html#spravice">Baby gym</a>
+      <a class="on" href="dzakovi-za-igracke.html">Džakovi za igračke</a>
+      <a href="index.html#ponuda">Ponuda</a>
+      <a href="index.html#utisci">Utisci</a>
+      <a href="index.html#informacije">Informacije</a>
+    </nav>
+    <div class="icons">
+      <a class="icon-btn" href="https://www.instagram.com/my_babys_paradise/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg></a>
+      <a class="icon-btn" href="#" aria-label="Korpa"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="badge" id="cartCount">0</span></a>
+      <button class="icon-btn menu-btn" aria-label="Meni" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+  <nav class="crumbs" aria-label="Putanja"><a href="index.html">Početna</a><span>/</span><span>Džakovi za igračke</span></nav>
+
+  <div class="product">
+    <div class="left">
+      <div class="gallery">
+        <div class="thumbs" id="thumbs"></div>
+        <div class="stage"><span class="tag">Ručno oslikano</span><img id="stageImg" src="img/dzakovi-trio.jpg" alt="Ručno oslikani džakovi za igračke sa imenom"></div>
+      </div>
+      <div class="preview" aria-live="polite">
+        <div class="lbl"><span>Vaš džak · skica</span><span>crtam ga ručno, ovo je samo ideja</span></div>
+        <svg id="bagSvg" viewBox="0 0 360 230" role="img" aria-label="Skica izabranih džakova"></svg>
+      </div>
+    </div>
+
+    <div class="info">
+      <span class="eyebrow">Handmade · natron papir</span>
+      <h1>Džakovi za igračke <span class="hand">po vašoj želji 🧸</span></h1>
+
+      <div class="pricebox"><span class="now" id="price">600 din</span><span class="was" id="was" hidden></span><span class="note">cena sa Instagram profila</span></div>
+      <p class="intro">Šta vi zamislite, ja to prenesem na džakčić, sa imenom ili bez, na vama je 🌸 U ponudi su tri veličine, a koja vama treba znate po količini igračaka 😂</p>
+
+      <div class="opt">
+        <div class="opt-head">1. Veličina</div>
+        <div class="sizes" id="sizes"></div>
+      </div>
+
+      <div class="opt">
+        <div class="opt-head">2. Motiv <small>ili opišite svoj u napomeni</small></div>
+        <div id="bagRows"></div>
+      </div>
+
+      <div class="opt">
+        <div class="opt-head"><label for="name">3. Ime deteta</label><small>po želji</small></div>
+        <div class="namebox">
+          <input type="text" id="name" maxlength="16" placeholder="npr. Damjan" autocomplete="off">
+          <div class="seg" id="script" role="group" aria-label="Pismo">
+            <button type="button" class="on" data-v="lat">Latinica</button>
+            <button type="button" data-v="cyr">Ćirilica</button>
+          </div>
+        </div>
+        <label class="chk" id="allWrap" hidden><input type="checkbox" id="nameAll"> Ime na sva tri džaka (inače samo na velikom)</label>
+        <p class="hint">Ime može da bude jedno ili više, ako su džakovi za braću i sestre.</p>
+      </div>
+
+      <div class="opt">
+        <div class="opt-head"><label for="note">4. Napomena</label></div>
+        <textarea id="note" placeholder="Npr. dinosaurus umesto mede, boja, datum kada vam treba…"></textarea>
+      </div>
+
+      <div class="buy"><button class="btn btn-dark" id="addBtn" type="button" onclick="addToCart()">Dodaj u korpu</button></div>
+      <button class="btn btn-ghost dm" type="button" onclick="sendDM()">Pošalji porudžbinu u DM 💌</button>
+      <p class="dm-note">Kopiram vašu porudžbinu, a vi je samo nalepite u poruku na Instagramu.</p>
+
+      <div class="perks">
+        <div class="perk"><span>✏️</span>Ručno oslikano</div>
+        <div class="perk"><span>🌱</span>Biorazgradivo</div>
+        <div class="perk"><span>📦</span>Preuzimanje u Novom Sadu</div>
+      </div>
+
+      <div class="acc">
+        <details open><summary>Opis</summary><div class="inner">
+          <p>Ručno izrađeni džakovi od kvalitetnog natron materijala, koje oslikavam i personalizujem prema vašoj želji. Izaberite motiv, ime, boje ili neki poseban detalj i zajedno ćemo napraviti jedinstven džak za igračke koji će ulepšati dečiju sobu. Savršeni su i kao poklon za mališane 🎁</p>
+        </div></details>
+        <details><summary>Materijal</summary><div class="inner"><ul>
+          <li>Natron (kraft) papir</li>
+          <li>Ručno oslikani</li>
+          <li>Zdravi za vašu decu i okolinu</li>
+          <li>Biorazgradivi i praktični</li>
+        </ul></div></details>
+        <details><summary>Veličine</summary><div class="inner"><ul>
+          <li><b>Mali</b>: 42,5 cm visine · 300 din</li>
+          <li><b>Srednji</b>: 61,5 cm visine · 500 din</li>
+          <li><b>Veliki</b>: 79,5 cm visine · 600 din</li>
+          <li><b>Ceo komplet</b> (sva tri): 1.200 din</li>
+        </ul></div></details>
+        <details><summary>Dostava i preuzimanje</summary><div class="inner"><p>Lično preuzimanje je moguće u Novom Sadu. Isporuka je samo na teritoriji Srbije; cenu i način slanja potvrđujem u poruci, kada dogovorimo motiv.</p></div></details>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="dims">
+  <div class="wrap">
+    <div class="pic"><img src="img/dzakovi-dimenzije.jpg" alt="Tri džaka sa oznakama visine: 79,5, 61,5 i 42,5 cm"></div>
+    <div>
+      <span class="eyebrow">Dimenzije džakova</span>
+      <h2 style="font-size:clamp(36px,4.4vw,58px);margin-top:12px">Koliko igračaka, <span class="hand">toliki džak</span></h2>
+      <p style="color:var(--muted);margin-top:14px;max-width:48ch">Tri različite veličine, a koja vama treba znate po količini igračaka 😂 Ili uzmite sva tri, pa igračke napokon prave manje haosa.</p>
+      <div class="dimtable">
+        <div><span>Mali <small>· tačkice na fotografiji</small></span><small>42,5 cm</small><b>300 din</b></div>
+        <div><span>Srednji <small>· noćno nebo</small></span><small>61,5 cm</small><b>500 din</b></div>
+        <div><span>Veliki <small>· medo sa imenom</small></span><small>79,5 cm</small><b>600 din</b></div>
+        <div class="set"><span>Ceo komplet <small>· sva tri</small></span><small>umesto 1.400</small><b>1.200 din</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">Iz radionice</span><h2>Svaki veliki projekat <span class="hand">počinje od male ideje</span></h2></div><a class="btn btn-ghost" href="https://www.instagram.com/my_babys_paradise/" target="_blank" rel="noopener">Još na Instagramu</a></div>
+    <div class="strip">
+      <figure><img src="img/dzakovi-skica.jpg" alt="Skica u svesci i markeri"><figcaption><b>skica u svesci</b>Razrađujem oblike i dimenzije motiva.</figcaption></figure>
+      <figure><img src="img/dzak-crtanje.jpg" alt="Skica prenesena na natron džak"><figcaption><b>na natron papir</b>Pažljivo prenosim skicu na džak.</figcaption></figure>
+      <figure><img src="img/dzakovi-oslikavanje.jpg" alt="Oslikavanje džakova"><figcaption><b>oslikavanje</b>Ime, medo, zvezdice, tačkice…</figcaption></figure>
+      <figure><img src="img/dzakovi-set.jpg" alt="Gotov komplet od tri džaka"><figcaption><b>u dečijoj sobi</b>Omiljeni kutak za igračke.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="block" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">Uz džak</span><h2>Za bebin <span class="hand">mali raj</span></h2></div><a class="btn btn-ghost" href="index.html#ponuda">Cela ponuda →</a></div>
+    <div class="related">
+      <a class="card" href="index.html#spravice"><div class="media"><img src="img/gym-duga.jpg" alt="Baby gym spravica"></div><div class="body"><h3>Baby gym spravica</h3><span class="price" style="color:var(--sage-deep)">Cena u DM-u</span></div></a>
+      <a class="card" href="index.html#spravice"><div class="media"><img src="img/gym-dino.jpg" alt="Dino spravica"></div><div class="body"><h3>Dino spravica</h3><span class="price" style="color:var(--sage-deep)">Cena u DM-u</span></div></a>
+      <a class="card" href="index.html#ponuda"><div class="media"><img src="img/teething-ring.jpg" alt="Teething ring"></div><div class="body"><h3>Teething ring</h3><span class="price">300 din <small>· cena iz 2020, proverite u DM-u</small></span></div></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div><a class="logo" href="index.html"><img src="img/logo.jpg" alt=""><span>Baby's Paradise</span></a>
+        <p style="margin-top:16px;font-size:14px;max-width:34ch">Od prirodnog i zdravog materijala. Handmade, sa puno ljubavi, za bebu i mamu zajedno. 🦋🐞🌸</p></div>
+      <div><h4>Prodavnica</h4><ul><li><a href="index.html#spravice">Baby gym spravice</a></li><li><a href="dzakovi-za-igracke.html">Džakovi za igračke</a></li><li><a href="index.html#ponuda">Teething ring i jastučići</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul><li><a href="https://www.instagram.com/my_babys_paradise/" target="_blank" rel="noopener">Instagram @my_babys_paradise</a></li><li><a href="https://ig.me/m/my_babys_paradise" target="_blank" rel="noopener">Porudžbine u DM 💌</a></li><li>Lično preuzimanje: Novi Sad</li><li>Isporuka samo u Srbiji</li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 My Baby's Paradise. Handmade u Novom Sadu.</span><span>Prikazane cene su sa Instagram profila · potvrđuju se u poruci</span></div>
+  </div>
+</footer>
+
+<div class="sticky-buy" id="stickyBuy">
+  <div class="t"><small id="stickyName">Džak za igračke · veliki</small><b id="stickyPrice">600 din</b></div>
+  <button class="btn btn-dark" type="button" onclick="addToCart()">Dodaj u korpu</button>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const BAGS = {
+  mali:    {label:'Mali',    cm:'42,5', h:42.5, price:300},
+  srednji: {label:'Srednji', cm:'61,5', h:61.5, price:500},
+  veliki:  {label:'Veliki',  cm:'79,5', h:79.5, price:600},
+};
+const SIZES = [
+  {id:'mali',    name:'Mali',        sub:'42,5 cm', bags:['mali'],                  price:300},
+  {id:'srednji', name:'Srednji',     sub:'61,5 cm', bags:['srednji'],               price:500},
+  {id:'veliki',  name:'Veliki',      sub:'79,5 cm', bags:['veliki'],                price:600},
+  {id:'komplet', name:'Ceo komplet', sub:'sva tri', bags:['veliki','srednji','mali'], price:1200, was:1400},
+];
+const MOTIFS = [
+  {id:'medo',    name:'Medo i pčelica', icon:'<circle cx="11" cy="11" r="4"/><circle cx="29" cy="11" r="4"/><ellipse cx="20" cy="21" rx="12" ry="11"/><circle class="f" cx="15.5" cy="19" r="1.4"/><circle class="f" cx="24.5" cy="19" r="1.4"/><path class="f" d="M18 24h4l-2 2.4z"/>'},
+  {id:'nebo',    name:'Noćno nebo',     icon:'<path d="M17 6a10 10 0 1 0 9 15a8 8 0 1 1-9-15z"/><path d="M31 8l1.2 3 3 1.2-3 1.2-1.2 3-1.2-3-3-1.2 3-1.2z"/><path d="M22 36l7-11 7 11"/>'},
+  {id:'tackice', name:'Tačkice',        icon:'<circle class="f" cx="9" cy="9" r="2"/><circle class="f" cx="23" cy="9" r="2"/><circle class="f" cx="16" cy="18" r="2"/><circle class="f" cx="30" cy="18" r="2"/><circle class="f" cx="9" cy="27" r="2"/><circle class="f" cx="23" cy="27" r="2"/><circle class="f" cx="16" cy="35" r="2"/><circle class="f" cx="30" cy="35" r="2"/>'},
+  {id:'vas',     name:'Vaš motiv',      icon:'<path d="M9 31l3-9 15-15 6 6-15 15z"/><path d="M24 10l6 6"/><path d="M9 31l9-3"/>'},
+];
+/* default motifs follow the brand's own photo: bear on the big one, night sky on the medium, dots on the small */
+const DEFAULT = {veliki:'medo', srednji:'nebo', mali:'tackice'};
+const GALLERY = ['img/dzakovi-trio.jpg','img/dzakovi-meda.jpg','img/dzakovi-set.jpg','img/dzak-mesec.jpg','img/dzakovi-oslikavanje.jpg','img/dzakovi-dimenzije.jpg'];
+const state = {size:2, motif:{...DEFAULT}, script:'lat', cart:0};
+const fmt = n => n.toLocaleString('sr-RS').replace(/,/g,'.') + ' din';
+const $ = id => document.getElementById(id);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* Serbian Latin → Cyrillic, for the name preview */
+const L2C = {'dž':'џ','lj':'љ','nj':'њ',a:'а',b:'б',c:'ц','č':'ч','ć':'ћ',d:'д','đ':'ђ',e:'е',f:'ф',g:'г',h:'х',i:'и',j:'ј',k:'к',l:'л',m:'м',n:'н',o:'о',p:'п',r:'р',s:'с','š':'ш',t:'т',u:'у',v:'в',z:'з','ž':'ж'};
+function toCyr(str){
+  let out='';
+  for (let i=0;i<str.length;i++){
+    const two=str.substr(i,2).toLowerCase(), one=str[i].toLowerCase();
+    let ch, step=1;
+    if (L2C[two]) { ch=L2C[two]; step=2; } else ch = L2C[one] || str[i];
+    out += (str[i]!==str[i].toLowerCase()) ? ch.toUpperCase() : ch;
+    i += step-1;
+  }
+  return out;
+}
+const shownName = () => { const n=$('name').value.trim(); return state.script==='cyr' ? toCyr(n) : n; };
+
+function renderThumbs(){
+  const cur = $('stageImg').getAttribute('src');
+  $('thumbs').innerHTML = GALLERY.map(src => `<button type="button" class="${src===cur?'on':''}" data-src="${src}" aria-label="Prikaži sliku"><img src="${src}" alt=""></button>`).join('');
+  $('thumbs').querySelectorAll('button').forEach(b => b.onclick = () => showImg(b.dataset.src));
+}
+function showImg(src){
+  const el = $('stageImg'); el.style.opacity = 0;
+  setTimeout(()=>{ el.src = src; el.style.opacity = 1; }, 160);
+  $('thumbs').querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.src===src));
+}
+function sizeIcon(s){
+  return s.bags.map(b => `<i style="height:${Math.round(BAGS[b].h/2)}px"></i>`).reverse().join('');
+}
+function renderSizes(){
+  $('sizes').innerHTML = SIZES.map((s,i)=>`<button type="button" class="size ${i===state.size?'on':''}" data-i="${i}">${s.was?`<span class="save">ušteda ${fmt(s.was-s.price)}</span>`:''}<span class="ic">${sizeIcon(s)}</span><b>${s.name}</b><small>${s.sub}</small><span class="p">${fmt(s.price)}</span></button>`).join('');
+  $('sizes').querySelectorAll('button').forEach(b => b.onclick = () => { state.size = +b.dataset.i; renderSizes(); renderRows(); update(); });
+}
+function renderRows(){
+  const s = SIZES[state.size], multi = s.bags.length > 1;
+  $('bagRows').innerHTML = s.bags.map(b => `<div class="bagrow">${multi?`<div class="t">${BAGS[b].label} · ${BAGS[b].cm} cm</div>`:''}<div class="motifs">${MOTIFS.map(m=>`<button type="button" class="motif ${state.motif[b]===m.id?'on':''}" data-bag="${b}" data-m="${m.id}" aria-pressed="${state.motif[b]===m.id}"><svg viewBox="0 0 40 40" aria-hidden="true">${m.icon}</svg>${m.name}</button>`).join('')}</div></div>`).join('');
+  $('bagRows').querySelectorAll('.motif').forEach(b => b.onclick = () => { state.motif[b.dataset.bag] = b.dataset.m; renderRows(); drawBags(); });
+  $('allWrap').hidden = !multi;
+}
+
+/* sketch of the chosen bags, drawn in a 100×170 unit box and scaled by real height */
+function motifSvg(id, hasName){
+  const y = hasName ? 16 : 0;
+  if (id==='medo') return `<g transform="translate(0,${y/2})">
+    <circle cx="31" cy="80" r="8"/><circle cx="69" cy="80" r="8"/><path class="w" d="M26 86 Q24 112 50 116 Q76 112 74 86 Q70 70 50 70 Q30 70 26 86z"/>
+    <circle class="f" cx="41" cy="92" r="2.2"/><circle class="f" cx="59" cy="92" r="2.2"/><path class="f" d="M46 101h8l-4 4.5z"/><path d="M50 105.5v3M45 108q5 4 10 0"/>
+    <path d="M28 118 Q20 140 24 170M72 118 Q80 140 76 170M40 138v4M46 134v4M54 134v4M60 138v4"/></g>
+    <path d="M82 ${hasName?60:40} q-8 10 -20 12 q-12 3 -8 14" stroke-dasharray="2.5 3"/><circle cx="84" cy="${hasName?57:37}" r="3"/>`;
+  if (id==='nebo') return `<path d="M36 ${60+y} a15 15 0 1 0 14 22 a12 12 0 1 1 -14 -22z"/>
+    <path d="M70 ${56+y}l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M78 ${86+y}l1.4 3.6 3.6 1.4-3.6 1.4-1.4 3.6-1.4-3.6-3.6-1.4 3.6-1.4z"/><path d="M18 ${44+y}l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1z"/>
+    <circle class="f" cx="56" cy="${46+y}" r="1"/><circle class="f" cx="24" cy="${96+y}" r="1"/><circle class="f" cx="62" cy="${100+y}" r="1"/>
+    <path d="M18 166 Q50 150 92 162"/><path d="M34 160 L52 128 L68 158M52 128 L52 156"/><path d="M84 160 V122 M84 124 l-6 10 h12z M84 132 l-8 12 h16z M84 142 l-9 12 h18z"/>`;
+  if (id==='tackice'){ let d=''; for (let r=0;r<9;r++) for (let c=0;c<5;c++){ const cy=34+y+r*15; if (cy>164) continue; d+=`<circle class="f" cx="${12+c*19+(r%2?9:0)}" cy="${cy}" r="2"/>`; } return d; }
+  return `<path d="M50 ${118} C 30 100, 22 84, 36 76 C 44 72, 50 80, 50 84 C 50 80, 56 72, 64 76 C 78 84, 70 100, 50 118z" stroke-dasharray="3 3.5"/>
+    <text x="50" y="${142}" text-anchor="middle" class="tx" font-size="15">vaš motiv</text>`;
+}
+function bagSvg(b, x, ground, withName){
+  const H = BAGS[b].h * 2.45, s = H/170, W = 100*s, y0 = ground - H;
+  const name = withName ? shownName() : '';
+  const fs = name ? Math.min(24, 150/Math.max(name.length,1)) : 0;
+  let zig=''; for (let i=0;i<=20;i++) zig += `${i*5},${i%2?3:0} `;
+  return `<g transform="translate(${x},${y0}) scale(${s})">
+    <rect x="0" y="0" width="100" height="170" rx="2" fill="#fffdf8" stroke="#cbbfae" stroke-width="1" vector-effect="non-scaling-stroke"/>
+    <polygon points="${zig} 100,22 0,22" fill="#c49a6c"/>
+    <path d="M0 22 H100" stroke="#a97f54" stroke-width="1" vector-effect="non-scaling-stroke"/>
+    <g class="ink">${motifSvg(state.motif[b], !!name)}</g>
+    ${name?`<text x="50" y="${state.motif[b]==='tackice'?96:50}" text-anchor="middle" class="tx name" font-size="${fs}">${esc(name)}</text>`:''}
+  </g>`;
+}
+function drawBags(){
+  const s = SIZES[state.size], ground = 222;
+  const nameAll = $('nameAll').checked, hasName = !!$('name').value.trim();
+  const order = s.bags.length>1 ? ['veliki','mali','srednji'] : s.bags;   /* same arrangement as the brand's photo */
+  const widths = order.map(b => BAGS[b].h*2.45*100/170), gap = 14;
+  const total = widths.reduce((a,w)=>a+w,0) + gap*(order.length-1);
+  let x = (360-total)/2, out = `<ellipse cx="180" cy="${ground+2}" rx="${total/2+24}" ry="6" fill="#e3d2bc"/>`;
+  order.forEach((b,i) => { out += bagSvg(b, x, ground, hasName && (s.bags.length===1 || nameAll || b==='veliki')); x += widths[i] + gap; });
+  $('bagSvg').innerHTML = `<style>.ink *{fill:none;stroke:#2e2826;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}.ink .f{fill:#2e2826;stroke:none}.ink .w{fill:#fffdf8}.ink .tx{fill:#2e2826;stroke:none}.tx{font-family:Caveat,cursive;font-weight:700;fill:#2e2826}</style>${out}`;
+}
+function update(){
+  const s = SIZES[state.size];
+  $('price').textContent = fmt(s.price);
+  $('was').hidden = !s.was; if (s.was) $('was').textContent = fmt(s.was);
+  $('stickyPrice').textContent = fmt(s.price);
+  $('stickyName').textContent = s.bags.length>1 ? 'Džakovi za igračke · ceo komplet' : `Džak za igračke · ${s.name.toLowerCase()}, ${s.sub}`;
+  drawBags();
+}
+function summary(){
+  const s = SIZES[state.size], name = $('name').value.trim(), note = $('note').value.trim();
+  const mName = id => MOTIFS.find(m=>m.id===id).name;
+  const lines = ['Zdravo! Želela bih ' + (s.bags.length>1 ? 'ceo komplet džakova za igračke (sva tri):' : `džak za igračke, ${s.name.toLowerCase()} (${s.sub}):`)];
+  s.bags.forEach(b => lines.push(`• ${BAGS[b].label} ${BAGS[b].cm} cm, motiv: ${mName(state.motif[b])}`));
+  if (name) lines.push(`Ime: ${name} (${state.script==='cyr'?'ćirilicom':'latinicom'})` + (s.bags.length>1 ? ($('nameAll').checked ? ', na sva tri' : ', na velikom') : ''));
+  lines.push(`Cena: ${fmt(s.price)}`);
+  if (note) lines.push(`Napomena: ${note}`);
+  return lines.join('\n');
+}
+let toastT;
+function toast(html){ const t=$('toast'); t.innerHTML=html; t.classList.add('show'); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),2800); }
+function addToCart(){
+  state.cart += 1;
+  const b = $('cartCount'); b.textContent = state.cart; b.classList.add('bump'); setTimeout(()=>b.classList.remove('bump'),200);
+  const s = SIZES[state.size], name = $('name').value.trim();
+  toast(`🧸 Dodato u korpu: <b>${s.bags.length>1?'ceo komplet džakova':'džak, '+s.name.toLowerCase()}</b>` + (name ? ` · „${esc(shownName())}”` : ''));
+}
+function sendDM(){
+  const text = summary();
+  const go = () => window.open('https://ig.me/m/my_babys_paradise','_blank','noopener');
+  if (navigator.clipboard) navigator.clipboard.writeText(text).then(()=>{ toast('💌 Porudžbina je kopirana. Nalepite je u poruku.'); setTimeout(go,700); }, go);
+  else go();
+}
+
+$('name').addEventListener('input', drawBags);
+$('nameAll').addEventListener('change', drawBags);
+$('script').querySelectorAll('button').forEach(b => b.onclick = () => {
+  state.script = b.dataset.v;
+  $('script').querySelectorAll('button').forEach(x => x.classList.toggle('on', x===b));
+  drawBags();
+});
+new IntersectionObserver(([e]) => $('stickyBuy').classList.toggle('show', !e.isIntersecting && e.boundingClientRect.top < 0)).observe($('addBtn'));
+
+renderThumbs(); renderSizes(); renderRows(); update();
+if (document.fonts) document.fonts.ready.then(drawBags);
+</script>
+<script>
+/* mobile menu: collects the header's nav links into one dropdown */
+(function(){var h=document.querySelector('header.site'),b=h&&h.querySelector('.menu-btn');if(!b)return;
+var p=document.createElement('nav');p.className='mobile-nav';p.setAttribute('aria-label','Meni');
+h.querySelectorAll('nav.main a').forEach(function(a){var c=a.cloneNode(true);c.removeAttribute('class');p.appendChild(c)});
+p.style.background=getComputedStyle(document.body).backgroundColor;h.appendChild(p);
+b.addEventListener('click',function(){var o=h.classList.toggle('menu-open');b.setAttribute('aria-expanded',o)});
+p.addEventListener('click',function(e){if(e.target.closest('a')){h.classList.remove('menu-open');b.setAttribute('aria-expanded','false')}});})();
+</script>
+</body>
+</html>
